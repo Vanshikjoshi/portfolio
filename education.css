@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(20, 20, 51);
+    color: antiquewhite;
+}
+#main {
+    height: 100vh;
+    width: 100%;
+    display: flex;         
+    flex-direction: row;    /* row-wise layout (default) */
+}
+#left {
+    height: 100vh;
+    width: 10vw;
+    border-right: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(25, 25, 57);
+}
+#left div {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-right: 5px;
+    height: 25px;
+    width: 120px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: burlywood;
+}
+#left div:hover {
+    height: 26px;
+    width: 121px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid rgb(245, 240, 240);
+    background-color: rgb(226, 181, 220);
+}
+#right {
+    height: 100vh;
+    width: 100vw;
+    margin-left: 10px;
+}
+.port{
+    height: 70px;
+    width: 87vw;
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    justify-content: center;
+    text-align: center;
+}
+#next{
+    margin: 10px;
+    height: 84vh;
+    width: 86vw;
+    display: flex;
+}
+.image{
+    height: 75vh;
+    width: 900px;
+    margin-right: 20px;
+    border-radius: 50%px;
+    margin-top: 20px;
+}
+.end {
+    margin: 20px;
+    width: 1500px;
+    height: 77vh;
+    color: rgb(241, 229, 230);
+    text-align: center;
+}
+img {
+    height: 95%;
+    width: 70%;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 3px;
+}
+.sc {
+    height: 23vh;
+    width: 97%;
+    border-radius: 10px;
+    margin: 7px;
+}
+.hsc {
+    height: 23vh;
+    width: 97%;
+    border-radius: 10px;
+    margin: 7px;
+}
+.college {
+    height: 23vh;
+    width: 97%;
+    border-radius: 10px;
+    margin: 7px;
+}
+.head {
+    color: rgb(155, 19, 19);
+}
+.sc:hover {
+    height: 24vh;
+    color: black;
+    background-color: azure;
+}
+.hsc:hover {
+    height: 24vh;
+    color: black;
+    background-color: azure;
+}
+.port:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.college:hover {
+    height: 24vh;
+    color: black;
+    background-color: azure;
+}
+.S{
+    height: 23vh;
+    margin-bottom: 20px;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+.H{
+    height: 23vh;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.C{
+    height: 23vh;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+.S:hover{
+    background-color: white;
+}
+.H:hover{
+    background-color: white;
+}
+.C:hover{
+    background-color: white;
+}
